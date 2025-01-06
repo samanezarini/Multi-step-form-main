@@ -20,19 +20,6 @@ form {
     flex-direction: column;
 }
 
-/* form > div:nth-child(1){
-    order: 1;
-}
-form > div:nth-child(2){
-    order: 2;
-}
-form > div:nth-child(3){
-    order: 3;
-}
-form > div:nth-child(4){
-    order: 4;
-} */
-
 
 .form-container {
     margin-top: 10%;
@@ -72,21 +59,12 @@ input[type="tel"] {
     border-radius: 6px;
     cursor: pointer;
     width: 120px;
-    margin-right: 7%;
-    position: fixed;
-    bottom: 120px;
-    right: 188px;
 }
 
 .btn-prev {
     background-color: transparent;
     border: none;
-    cursor: pointer;
-    margin-right: 37%;
-    position: fixed;
-    bottom: 130px;
-    right: 170px;
-    color: #b8b8c2;
+    color: #2b2b2b;
 }
 
     .btn-prev:hover {
@@ -99,10 +77,8 @@ input[type="tel"] {
     padding: 10px 20px;
     border: none;
     border-radius: 6px;
-    cursor: pointer;
     width: 120px;
     margin-right: 7%;
-    position: fixed;
     bottom: 120px;
     right: 188px;
 }
